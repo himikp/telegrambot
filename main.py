@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 from datetime import datetime
 import telebot
 
-token = '5364507190:AAFF4cZBqsSNf7Bos9HscDmRt0xS-XoIm4Q'
+token = 'token'
 
 
 def get_data(x):
