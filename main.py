@@ -1,4 +1,4 @@
-from turtle import delay
+from time import sleep
 import requests
 from bs4 import BeautifulSoup
 from datetime import datetime
@@ -47,7 +47,7 @@ def telegram_bot(token):
             for i in range(len(req)):
                 bot.send_message(
                     message.chat.id, req[i].text)
-                delay(1000)
+                sleep(1)
 
         except Exception as ex:
             print(ex)
